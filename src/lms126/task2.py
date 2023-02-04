@@ -2,4 +2,12 @@ from to_do import TODO
 
 
 def task2():
-    return TODO("Erase this line and write your solution")
+    return """
+    
+    INPUT height of the rectangle
+    INPUT base of the rectangle
+    CALCULATE the area of rectangle
+    OUTPUT area
+    
+    
+    """
