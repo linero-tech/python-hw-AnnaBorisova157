@@ -2,4 +2,11 @@ from to_do import TODO
 
 
 def task10():
-    return TODO("Erase this line and write your solution")
+    return """
+    INPUT password
+    INPUT pass_length 
+    If pass_length is greater than 6 
+    Print valid password
+otherwise:
+  invalid password
+    """
