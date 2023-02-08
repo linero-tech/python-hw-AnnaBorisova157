@@ -5,10 +5,9 @@ def task8():
     return """
     INPUT x
     IF x multiplies of 3
-     Print Foo
+     OUTPUT Foo
     IF x multiplies of 5
-     Print Bar
+     OUTPUT Bar
     IF x not multiplies of 3 or 5
-     Print Qix
-    OUTPUT x
+     OUTPUT Qix
     """
