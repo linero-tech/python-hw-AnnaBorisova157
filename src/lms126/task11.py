@@ -2,4 +2,9 @@ from to_do import TODO
 
 
 def task11():
-    return TODO("Erase this line and write your solution")
+    return """
+    INPUT Fahrenheit
+    INPUT Celcius
+    Calculate Celcius_value = (Fahrenheit - 32) * (5 / 9)
+    Print 
+    """
