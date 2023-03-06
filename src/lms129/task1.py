@@ -2,6 +2,12 @@ from to_do import TODO
 
 
 def task1(a, b):
-    return TODO(
-        "Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword"
-    )
+    result = list(range (a,b))
+    if a >= b:
+        result = 0
+    return result
+
+if __name__ == "__main__":
+       print(task1(a=1, b=5)) #15
+       print(task1(a=3, b=3)) #0
+
