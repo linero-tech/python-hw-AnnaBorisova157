@@ -9,4 +9,4 @@ def task4():
 
 
 if __name__ == "__main__":
-    print(task4()) 
+    print(task4())
